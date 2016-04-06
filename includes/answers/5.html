@@ -9,6 +9,17 @@ by <a href="http://blog.belvg.com/author/sergey-guk" target="_blank">Sergei Guk<
 <p><span id="more-1390"></span></p>
 <h4>install</h4>
 <p>Files from this area will be displayed during the installation process.</p>
+<p>Magento enter in this area when he not found the installation date in local.xml</p>
+<p>app/etc/local.xml  > gobal/install/date</p>
+<pre>
+	&#x3C;config&#x3E;
+	    &#x3C;global&#x3E;
+	        &#x3C;install&#x3E;
+	            &#x3C;date&#x3E;&#x3C;![CDATA[Wed, 23 Mar 2016 23:31:21 +0000]]&#x3E;&#x3C;/date&#x3E;
+	        &#x3C;/install&#x3E;
+	        ...	
+</pre>
+
 <h4>admintml</h4>
 <p>Everything that you will observe while working in the admin panel can be found here. In other words, if module performs anything related to admin panel, all templates and layouts will be there.</p>
 <h4>frontend</h4>
