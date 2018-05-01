@@ -13,9 +13,9 @@ $message = <<<EOT
 EOT;
 $message = htmlspecialchars($message);
 $subject = "Suggestion from the website";
-$address = "info@magentostudyguide.com";
+$address = "info@magentostudy.com";
 if(!mail($address, $subject, $message)) {
-  echo "<script>alert('There was an error submitting the form, please send us the information to: info@magestudyguide.com')</script>";
+  echo "<script>alert('There was an error submitting the form, please send us the information to: info@magentostudy.com')</script>";
 } else {
   echo "<script>alert('Thank you for sending the suggestion!')</script>";
 }
